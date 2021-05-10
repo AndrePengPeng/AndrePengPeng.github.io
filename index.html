@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<title>Bo-Shiang Peng's Biology</title>
+<link rel = "shortcut icon" href="https://media.zenfs.com/no/mybest_sports231/eb075e8df52b78ca789115200779ccfe">
+
+<audio autoply controls loop>
+<source src = "music.mp3" type = "audio/mpeg" >
+</audio>
+
+<style>
+body {
+  background-color : pink;
+  padding: 0 20px 20px 20px;
+  border: 5px solid red;
+}
+a:hover {
+  color: red;
+}
+</style>
+
+<script language="JavaScript">
+function ShowTime(){
+　var NowDate=new Date();
+　var h=NowDate.getHours();
+　var m=NowDate.getMinutes();
+　var s=NowDate.getSeconds();
+  var day=NowDate.getDate();
+  var mon=NowDate.getMonth();
+  var yr=NowDate.getFullYear();
+　document.getElementById('showbox').innerHTML = ('0'+(mon+1)).slice(-2) + '-' + ('0'+day).slice(-2) + '-' + yr + ' ' + ('0'+h).slice(-2) + ':' + ('0'+m).slice(-2) + ':' + ('0'+s).slice(-2);
+　setTimeout('ShowTime()',1000);
+}
+</script>
+
+</head>
+
+<body>
+
+<body onload="ShowTime()">
+<p>
+<div id="showbox"></div>
+</p>
+
+</body>
+
+
+<h1>自我介紹</h1>
+ 大家好，我叫彭柏翔，畢業於
+<a href = "http://www.hchs.hc.edu.tw/bin/home.php" target="_blank">
+新竹高級中學
+</a>
+，曾就讀
+<a href = "https://smed.kmu.edu.tw/" target="_blank">
+高雄醫學大學醫學系
+</a>
+，現在就讀於
+<a href = "https://web.ee.ntu.edu.tw/" target="_blank">
+台灣大學電機工程學系
+</a>
+，喜歡
+<a href = "badminton.jpg" target="_blank">
+打羽球
+</a>
+、
+<a href = "my magic show.mp4" target="_blank">
+玩魔術
+</a>
+、
+<a href = "https://zh.wikipedia.org/wiki/%E5%90%89%E4%BB%96" target="_blank">
+彈吉他
+</a>
+……，基本上只要不是讀書的事情我都喜歡。而在讀書方面，我最擅長的科目是數學、化學、生物和物理，雖然說都沒有到很強，但是至少讓我考上了現在和以前的大學。
+<p>
+<img src = "my photo.jpg"
+     alt="This is my handsome photo. Please enjoy it!"
+     width = "504"
+     height = "672"> 
+</p>
+</body>
+
+
+
+
+</html>
